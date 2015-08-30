@@ -14,22 +14,23 @@ go get github.com/shamsher31/gosymbol
 package main
 
 import (
+  "fmt"
   "github.com/shamsher31/gosymbol"
 )
 
 func main() {
 
   // will give ℹ in blue color
-  symbol.Info()
+  fmt.Print(symbol.Info())
   
   // will give ✔ in green color
-  symbol.Success()
+  fmt.Print(symbol.Success())
 
   // will give ⚠ in yellow color
-  symbol.Warning()
+  fmt.Print(symbol.Warning())
 
   // will give ✖ in red color
-  symbol.Error()
+  fmt.Print(symbol.Error())
 
 }
 ```
