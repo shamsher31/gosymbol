@@ -7,17 +7,17 @@ import (
 )
 
 func Info() {
-	fmt.Println(chalk.Blue, "ℹ", chalk.Reset)
+	fmt.Print(chalk.Blue, "ℹ", " ", chalk.Reset)
 }
 
 func Success() {
-	fmt.Println(chalk.Green, "✔", chalk.Reset)
+	fmt.Print(chalk.Green, "✔", " ", chalk.Reset)
 }
 
 func Warning() {
-	fmt.Println(chalk.Yellow, "⚠", chalk.Reset)
+	fmt.Print(chalk.Yellow, "⚠", " ", chalk.Reset)
 }
 
 func Error() {
-	fmt.Println(chalk.Red, "✖", chalk.Reset)
+	fmt.Print(chalk.Red, "✖", " ", chalk.Reset)
 }
