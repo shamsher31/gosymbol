@@ -2,7 +2,7 @@
 
 [![Godoc](http://img.shields.io/badge/godoc-reference-blue.svg?style=flat)](https://godoc.org/github.com/shamsher31/gosymbol)
 
-Symbol provide colored log icons
+Symbol provide unicode symbol for your Go apps
 
 ### How to install
 ```go
@@ -32,6 +32,18 @@ func main() {
   // will give ✖ in red color
   fmt.Print(symbol.Error())
 
+  // will give ©
+  fmt.Println(symbol.Copyright())
+  
+  // will give ®
+  fmt.Println(symbol.Registered())
+  
+  // will give β
+  fmt.Println(symbol.Beta())
+  
+  // will give δ
+  fmt.Println(symbol.Delta())
+
 }
 ```
 
@@ -41,7 +53,7 @@ func main() {
 [chalk](https://github.com/ttacon/chalk)<br>
 
 ### Why
-This package is inspired by [log-symbols](https://www.npmjs.com/package/log-symbols) npm module.
+This package is inspired by [log-symbols](https://www.npmjs.com/package/log-symbols) npm module but with more unicode symbols.
 
 ### License
 MIT © [Shamsher Ansari](https://github.com/shamsher31)
