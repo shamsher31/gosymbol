@@ -1,23 +1,20 @@
 // Package symbol provide colored log icons
 package symbol // import "github.com/shamsher31/gosymbol"
 
-import (
-	"fmt"
-	"github.com/ttacon/chalk"
-)
+import "github.com/ttacon/chalk"
 
-func Info() {
-	fmt.Print(chalk.Blue, "ℹ", " ", chalk.Reset)
+func Info() string {
+	return chalk.Blue.Color("ℹ ")
 }
 
-func Success() {
-	fmt.Print(chalk.Green, "✔", " ", chalk.Reset)
+func Success() string {
+	return chalk.Green.Color("✔ ")
 }
 
-func Warning() {
-	fmt.Print(chalk.Yellow, "⚠", " ", chalk.Reset)
+func Warning() string {
+	return chalk.Yellow.Color("⚠ ")
 }
 
-func Error() {
-	fmt.Print(chalk.Red, "✖", " ", chalk.Reset)
+func Error() string {
+	return chalk.Red.Color("✖ ")
 }
