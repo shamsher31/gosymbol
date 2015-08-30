@@ -18,3 +18,31 @@ func Warning() string {
 func Error() string {
 	return chalk.Red.Color("✖ ")
 }
+
+func Copyright() string {
+	return chalk.White.Color("© ")
+}
+
+func Registered() string {
+	return chalk.White.Color("® ")
+}
+
+func Pi() string {
+	return chalk.White.Color("π ")
+}
+
+func Omega() string {
+	return chalk.White.Color("Ω ")
+}
+
+func Theta() string {
+	return chalk.White.Color("Θ ")
+}
+
+func Beta() string {
+	return chalk.White.Color("β ")
+}
+
+func Delta() string {
+	return chalk.White.Color("δ ")
+}
