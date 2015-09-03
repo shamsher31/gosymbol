@@ -1,6 +1,7 @@
 # gosymbol
 
 [![Godoc](http://img.shields.io/badge/godoc-reference-blue.svg?style=flat)](https://godoc.org/github.com/shamsher31/gosymbol)
+[![Build Status](https://travis-ci.org/shamsher31/gosymbol.svg)](https://travis-ci.org/shamsher31/gosymbol)
 
 Symbol provide unicode symbol for your Go apps
 
