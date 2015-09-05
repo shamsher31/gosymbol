@@ -2,8 +2,8 @@
 
 [![Godoc](http://img.shields.io/badge/godoc-reference-blue.svg?style=flat)](https://godoc.org/github.com/shamsher31/gosymbol)
 [![Build Status](https://travis-ci.org/shamsher31/gosymbol.svg)](https://travis-ci.org/shamsher31/gosymbol)
-[![GitHub release](http://img.shields.io/github/release/shamsher31/gosymbol.svg?style=flat-square)][release]
-[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)][license]
+[![GitHub release](http://img.shields.io/github/release/shamsher31/gosymbol.svg?style=flat-square)](release)
+[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](license)
 
 Symbol provide unicode symbol for your Go apps
 
