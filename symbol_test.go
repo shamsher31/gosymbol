@@ -67,3 +67,9 @@ func TestDelta(t *testing.T) {
 		t.Fatalf("Symbol must be", "δ ")
 	}
 }
+
+func TestMicrosecond(t *testing.T) {
+	if Microsecond() == "" {
+		t.Fatalf("Symbol must be", "µ ")
+	}
+}
