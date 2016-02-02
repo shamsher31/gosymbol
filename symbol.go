@@ -46,3 +46,7 @@ func Beta() string {
 func Delta() string {
 	return chalk.White.Color("δ ")
 }
+
+func Microsecond() string {
+	return chalk.White.Color("µ ")
+}
